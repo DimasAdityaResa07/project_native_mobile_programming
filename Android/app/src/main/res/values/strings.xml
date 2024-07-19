@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">project_uts_uas_nmp_sem6</string>
+    <string-array name="status_kendaraan">
+        <item>-- Pilih --</item>
+        <item>Aktif</item>
+        <item>Tidak Aktif</item>
+        <item>Dalam Perbaikan</item>
+    </string-array>
+
+    <string-array name="status_kendaraan_edit">
+        <item>Aktif</item>
+        <item>Tidak Aktif</item>
+        <item>Dalam Perbaikan</item>
+    </string-array>
+
+    <string-array name="role">
+        <item>-- Pilih --</item>
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="role_edit">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="jenis_kelamin">
+        <item>-- Pilih --</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="jenis_kelamin_edit">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="status_laporan">
+        <item>-- Pilih --</item>
+        <item>Menunggu Konfirmasi</item>
+        <item>Sedang Diproses</item>
+    </string-array>
+
+    <string-array name="status_laporan_edit">
+        <item>Menunggu Konfirmasi</item>
+        <item>Sedang Diproses</item>
+        <item>Selesai Dikerjakan</item>
+    </string-array>
+</resources>

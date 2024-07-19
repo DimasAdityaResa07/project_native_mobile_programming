@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_uts_uas_nmp_sem6"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".awal_allrole.SplashActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".awal_allrole.register"
+            android:exported="true" />
+        <activity
+            android:name=".awal_allrole.get_started"
+            android:exported="true" />
+        <activity
+            android:name=".awal_allrole.login"
+            android:exported="true" />
+        <activity
+            android:name=".tampilan_admin.MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".tampilan_admin.MainActivity_lanjutan"
+            android:exported="true" />
+
+
+        <!-- Pelapor -->
+        <activity
+            android:name=".crud_pelapor_admin.edit_data_pelapor"
+            android:exported="false" />
+        <activity
+            android:name=".crud_pelapor_admin.simpan_data_pelapor"
+            android:exported="false" />
+        <activity
+            android:name=".crud_pelapor_admin.daftar_pelapor_admin"
+            android:exported="true" />
+
+        <!-- Kendaraan -->
+        <activity
+            android:name=".crud_kendaraan_admin.daftar_kendaraan_admin"
+            android:exported="true" />
+        <activity
+            android:name=".crud_kendaraan_admin.simpan_data_kendaraan"
+            android:exported="true" />
+        <activity
+            android:name=".crud_kendaraan_admin.edit_data_kendaraan"
+            android:exported="true" />
+
+        <!-- Petugas -->
+        <activity
+            android:name=".crud_petugas_admin.daftar_petugas_admin"
+            android:exported="true" />
+        <activity
+            android:name=".crud_petugas_admin.simpan_data_petugas"
+            android:exported="true" />
+        <activity
+            android:name=".crud_petugas_admin.edit_data_petugas"
+            android:exported="true" />
+
+        <!-- Petugas -->
+        <activity
+            android:name=".crud_kategori_admin.daftar_kategori_admin"
+            android:exported="true" />
+        <activity
+            android:name=".crud_kategori_admin.edit_data_kategori"
+            android:exported="true" />
+        <activity
+            android:name=".crud_kategori_admin.simpan_data_kategori"
+            android:exported="true" />
+
+        <!-- Penerimaan Laporan -->
+        <activity
+            android:name=".crud_penerimaan_laporan.daftar_penerimaan_laporan_admin"
+            android:exported="true" />
+        <activity
+            android:name=".crud_penerimaan_laporan.simpan_data_penerimaan_laporan"
+            android:exported="true" />
+        <activity
+            android:name=".crud_penerimaan_laporan.edit_data_penerimaan_laporan"
+            android:exported="true" />
+
+        <!-- Penanganan Laporan -->
+        <activity
+            android:name=".crud_penanganan_laporan.daftar_penanganan_laporan_admin"
+            android:exported="true" />
+        <activity
+            android:name=".crud_penanganan_laporan.simpan_data_penanganan_laporan"
+            android:exported="true" />
+        <activity
+            android:name=".crud_penanganan_laporan.edit_data_penanganan_laporan"
+            android:exported="true" />
+
+        <!-- Dashboard -->
+        <activity
+            android:name=".tampilan_user.MainActivity_user"
+            android:exported="true" />
+        <activity
+            android:name=".tampilan_user.edit_profile_user"
+            android:exported="true" />
+    </application>
+
+</manifest>

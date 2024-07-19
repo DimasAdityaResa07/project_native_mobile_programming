@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crud_kendaraan_admin.simpan_data_kendaraan"
+    android:gravity="center"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAMBAH DATA"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="-10dp"
+            android:text="ID Laporan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/view_id_laporan"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/readonly_input_text"
+            android:hint="1491231938012"
+            android:enabled="false"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorHint"
+            android:visibility="gone"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/input_id_laporan"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/status_kendaraan"
+            android:layout_marginTop="20dp"
+            />
+
+<!--        <EditText-->
+<!--            android:id="@+id/input_no_plat"-->
+<!--            android:layout_width="321dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:hint="BM 1 D"-->
+<!--            android:paddingTop="0dp"-->
+<!--            android:paddingBottom="10dp"-->
+<!--            android:textColor="@color/colorPrimaryDark"-->
+<!--            android:textColorHint="@color/colorHint"-->
+<!--            android:textSize="16sp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:text="Lokasi Laporan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/view_lokasi_laporan"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/readonly_input_text"
+            android:hint="1491231938012"
+            android:enabled="false"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorHint"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:text="No Plat Mobil Penanganan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:id="@+id/input_no_plat"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:text="Nama Petugas"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:id="@+id/input_nama_petugas"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+
+<!--        <EditText-->
+<!--            android:id="@+id/input_type"-->
+<!--            android:layout_width="321dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:hint="FE84SHDX"-->
+<!--            android:paddingBottom="10dp"-->
+<!--            android:textColor="@color/colorPrimaryDark"-->
+<!--            android:textColorHint="@color/colorHint"-->
+<!--            android:textSize="16sp" />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:text="Deskripsi Penanganan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/input_deskripsi"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Melakukan penyiraman air ke titik api"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorHint"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:text="Catatan Tindak Lanjut"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+<!--        <EditText-->
+<!--            android:id="@+id/input_status_kendaraan"-->
+<!--            android:layout_width="321dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:hint="Baik"-->
+<!--            android:paddingBottom="10dp"-->
+<!--            android:textColor="@color/colorPrimaryDark"-->
+<!--            android:textColorHint="@color/colorHint"-->
+<!--            android:textSize="16sp" />-->
+        <EditText
+            android:id="@+id/input_catatan"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Pantau kesehatan dari korban kebakaran"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorHint"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shaperadius"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="SIMPAN"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

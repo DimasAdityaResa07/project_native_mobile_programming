@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tampilan_admin.MainActivity"
+    android:gravity="top"
+    android:background="@color/background">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_marginLeft="-20dp"
+            android:layout_width="450dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape">
+        </FrameLayout>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang Di Aplikasi Pelapooran Pemadam Kebakaran"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="675dp"
+            android:clickable="false"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/frame_datakendaraan"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:paddingRight="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="90dp"
+                        android:clickable="false"
+                        android:src="@drawable/firetruck" />
+
+                    <TextView
+                        android:paddingRight="13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="false"
+                        android:text="DAFTAR KENDARAAN"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_datapetugas"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:paddingRight="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="90dp"
+                        android:clickable="false"
+                        android:src="@drawable/firefighters" />
+
+                    <TextView
+                        android:paddingRight="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:text="DAFTAR PETUGAS"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_datakategori"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:paddingRight="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="80dp"
+                        android:clickable="false"
+                        android:src="@drawable/kategori" />
+
+                    <TextView
+                        android:paddingRight="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:text="DAFTAR KATEGORI"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_kembali"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/shape1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:paddingRight="20dp"
+                        android:layout_width="110dp"
+                        android:layout_height="60dp"
+                        android:clickable="false"
+                        android:src="@drawable/back" />
+
+                    <TextView
+                        android:paddingRight="35dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        android:text="KEMBALI KE MENU AWAL"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+</LinearLayout>
